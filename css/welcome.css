@@ -1,0 +1,144 @@
+/* welcome */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    font-family: 'Taviraj', serif;
+}
+
+.welcomebody {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.welcome {
+    position: absolute;
+    display: flex;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(0, 0, 0);
+    width: 1010px;
+    height: 130px;
+    margin: auto;
+    box-shadow: 20px 19px 20px 6px rgb(49, 49, 49);
+    border-radius: 10px 10px 0 0;
+    padding-bottom: 80px;
+}
+
+.welcome img {
+    position: absolute;
+    display: flex;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 20px 20px 0 20px;
+}
+
+.welcomebtn {
+    display: block;
+    width: 125px;
+    height: 64px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    border-radius: 5px;
+    border: none;
+    background-size: cover;
+    margin: 0 211px 210px 209px;
+    z-index: 1000;
+}
+
+.hr {
+    background-image: url('../images/cro.png');
+}
+
+.uk {
+    background-image: url('../images/uk.png');
+}
+
+@media only screen and (max-width: 1200px) {
+    .welcome {
+        width: 700px;
+        height: 80px;
+    }
+    .welcomebtn {
+        margin: 0 149px 145px 140px;
+        width: 95px;
+        height: 44px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .welcome {
+        width: 600px;
+        height: 50px;
+        padding-bottom: 65px;
+    }
+    .welcomebtn {
+        margin: 0 121px 116px 122px;
+        width: 62px;
+        height: 29px;
+    }
+}
+
+@media only screen and (max-width: 766px) {
+    .welcome {
+        width: 400px;
+        height: 249px;
+        border-radius: 0;
+    }
+    .welcomebtn {
+        margin: 0 81px 42px 81px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .welcome {
+        width: 297px;
+    }
+    .welcomebtn {
+        margin: 0px 43px 31px 44px;
+        width: 44px;
+        height: 21px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .welcome {
+        display: none;
+    }
+    .kolona img {
+        width: 100%;
+        position: absolute;
+        display: flex;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        padding: 15px;
+    }
+    .hr {
+        margin: 0 103px 0 0;
+    }
+    .uk {
+        margin: 0 0 0 100px;
+    }
+}
+
+@media screen and (min-width: 321px) {
+    .kolona {
+        display: none;
+    }
+}

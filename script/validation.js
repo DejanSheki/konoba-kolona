@@ -6,7 +6,7 @@ function sendEmail() {
 
     if (isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(dateandtime) && isNotEmpty(message)) {
         $.ajax({
-            url: 'reservation_mail.php',
+            url: '../reservation_mail.php',
             method: 'POST',
             dateType: 'json',
             data: {

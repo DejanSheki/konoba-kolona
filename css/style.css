@@ -7,19 +7,20 @@
 body {
     background-color: #000000;
     margin: 0;
-    font-family: 'Noto Serif', serif;
+    font-family: 'Taviraj', serif;
+    box-sizing: border-box;
 }
 
 p {
-    color: rgb(211, 211, 211);
+    color: rgb(230, 230, 230);
     font-weight: 300;
 }
 
 h1 {
     text-align: center;
-    color: rgb(211, 211, 211);
+    color: rgb(230, 230, 230);
     margin: 0;
-    padding: 20px 0 0 0;
+    padding: 5px 0 0 0;
     font-weight: 700;
     font-style: normal;
     font-size: 3em;
@@ -33,14 +34,14 @@ h1 {
     background: linear-gradient(to right, rgb(127, 127, 128), rgb(56, 53, 53), rgb(175, 3, 3));
     padding-top: 0.1em;
     padding-bottom: 0.1em;
-    border-radius: 10% 30% / 2% 10%;
+    border-radius: 17% 38% / 3% 9%;
 }
 
 .module {
     width: 100%;
     background: #000000;
-    color: rgb(211, 211, 211);
-    padding: 5px;
+    color: rgb(230, 230, 230);
+    padding-top: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,7 +49,7 @@ h1 {
 
 .head {
     background-color: #000000;
-    padding: 5px 80px 5px 80px;
+    padding: 5px 50px 5px 40px;
     width: 100%;
     position: fixed;
     position: sticky;
@@ -56,14 +57,29 @@ h1 {
     z-index: 999;
 }
 
+.logo {
+    display: flex;
+    align-items: inherit;
+}
+
+.logo img {
+    height: 60px;
+}
+
+.logo a {
+    margin: 0;
+}
+
 .head h1 {
-    font-family: 'Noto Serif', serif;
-    padding: 0;
+    font-family: 'Taviraj', serif;
+    font-size: 2em;
+    font-weight: 600;
 }
 
 .nav ul {
     display: flex;
     margin: 10px 0 0 0;
+    padding: 0 5px 0 0;
 }
 
 .nav li {
@@ -73,35 +89,26 @@ h1 {
 
 .nav li a {
     text-decoration: none;
-    font-size: 1.3em;
-    padding: 2px 15px 2px 15px;
-    color: rgb(211, 211, 211);
+    font-size: 1.2em;
+    padding: 0 10px;
+    color: rgb(230, 230, 230);
     font-weight: 500;
 }
 
-.active,
-.activea:hover {
-    color: rgb(211, 211, 211);
-    border-bottom: 1px solid rgb(211, 211, 211);
-    border-top: 1px solid rgb(211, 211, 211);
+.nav ul li.active a,
+.nav ul li a:hover {
+    color: rgb(230, 230, 230);
+    border-bottom: 1px solid rgb(230, 230, 230);
+    border-top: 1px solid rgb(230, 230, 230);
     border-radius: 10%;
 }
-
-
-/*.nav li a:hover {
-    color: rgb(211, 211, 211);
-    border-bottom: 1px solid rgb(211, 211, 211);
-    border-top: 1px solid rgb(211, 211, 211);
-    border-radius: 10%;
-}*/
 
 
 /* hamburger */
 
 .nav li .fa-bars {
     display: none;
-    color: rgb(211, 211, 211);
-    padding: 0 10px;
+    color: rgb(230, 230, 230);
     cursor: pointer;
 }
 
@@ -132,8 +139,9 @@ h1 {
 }
 
 .mobile-nav .responsive-menu ul li a {
-    color: rgb(211, 211, 211);
+    color: rgb(230, 230, 230);
     font-size: 1.5em;
+    text-decoration: none;
 }
 
 
@@ -141,7 +149,7 @@ h1 {
 
 .parallax {
     position: relative;
-    height: 90vh;
+    height: 93vh;
     background: transparent;
 }
 
@@ -149,20 +157,20 @@ h1 {
     position: relative;
     display: block;
     top: 80%;
-    font-size: 3.3em;
-    color: #fff;
-    letter-spacing: 0.4em;
+    font-size: 3.6em;
+    color: rgb(230, 230, 230);
+    letter-spacing: 0.3em;
 }
 
 
 /*the content*/
 
 .container {
-    background-image: url('../images/cavtat2crno.jpg');
+    background-image: url('../images/zalazak5.png');
     background-size: cover;
     width: 100%;
     margin: 0 auto;
-    padding: 0 5px;
+    padding: 0 7px;
 }
 
 
@@ -190,14 +198,14 @@ h1 {
 }
 
 .icons i {
-    color: rgb(211, 211, 211);
+    color: rgb(230, 230, 230);
     padding: 0 30px;
 }
 
 .cont {
     width: 50%;
     background-color: rgba(0, 0, 0, 0.85);
-    margin-top: 5px;
+    margin-top: 7px;
 }
 
 .contphoto {
@@ -213,7 +221,7 @@ h1 {
 }
 
 .texttext {
-    margin-bottom: 20px;
+    padding-top: 100px;
 }
 
 .cont h1 {
@@ -251,7 +259,8 @@ h1 {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    margin-top: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .testemonials {
@@ -273,13 +282,15 @@ blockquote {
     width: 90%;
     margin-left: 100px;
     padding: 10px 40px 10px 40px;
-    border-left: 1px solid rgb(211, 211, 211);
+    border-left: 1px solid rgb(230, 230, 230);
     position: relative;
     min-height: 410px;
 }
 
 blockquote h2 {
-    color: rgb(211, 211, 211);
+    color: rgb(230, 230, 230);
+    letter-spacing: 0.02em;
+    font-weight: 400;
 }
 
 blockquote p {
@@ -308,7 +319,7 @@ blockquote a:hover {
 blockquote::before {
     font-family: 'Varela', sans-serif;
     content: "\201C";
-    color: rgb(211, 211, 211);
+    color: rgb(230, 230, 230);
     font-size: 11em;
     position: absolute;
     left: 10px;
@@ -348,19 +359,21 @@ blockquote::after {
 
 .contcontact {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.85);
-    margin-top: 5px;
+    background-color: rgba(0, 0, 0, 0.78);
+    margin: 2px;
 }
 
 .h2 {
     font-size: 1.4em;
-    color: rgb(211, 211, 211);
+    color: rgb(230, 230, 230);
     text-align: center;
     padding-top: 20px;
 }
 
 .h2 h2 {
     margin: 0;
+    font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
 #reservation {
@@ -378,7 +391,7 @@ blockquote::after {
     font-size: 1.1em;
     line-height: 1.5;
     background-color: rgba(0, 0, 0, 0.9);
-    color: rgb(211, 211, 211);
+    color: rgba(230, 230, 230, 1);
     margin: 40px 0;
     width: 50%;
     padding-bottom: 10px;
@@ -389,7 +402,7 @@ blockquote::after {
 }
 
 .form-class {
-    width: 50%;
+    width: 70%;
 }
 
 .formcontrol {
@@ -397,7 +410,7 @@ blockquote::after {
     width: 100%;
     padding: 7px 10px;
     color: rgb(0, 0, 0);
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(230, 230, 230);
     background-clip: padding-box;
     border: 1px solid rgb(0, 0, 0);
     border-radius: 5px;
@@ -406,7 +419,7 @@ blockquote::after {
 .btn {
     display: block;
     width: 100%;
-    color: rgb(211, 211, 211);
+    color: rgb(230, 230, 230);
     font-weight: 500;
     text-align: center;
     cursor: pointer;
@@ -419,11 +432,11 @@ blockquote::after {
     line-height: 1.5;
     border-radius: 5px;
     background-color: rgb(0, 0, 0);
-    border: 1px solid rgb(211, 211, 211);
+    border: 1px solid rgb(230, 230, 230);
 }
 
 .btn:hover {
-    color: rgb(211, 211, 211);
+    color: rgb(230, 230, 230);
     background: linear-gradient(to right, rgb(26, 25, 25), rgb(46, 44, 44), rgb(46, 44, 44), rgb(124, 1, 1));
     text-decoration: none;
 }
@@ -449,7 +462,7 @@ input[type="button"].btn {
     display: flex;
     align-items: center;
     flex-direction: column;
-    color: rgba(211, 211, 211, 1);
+    color: rgb(230, 230, 230);
     background-color: rgba(0, 0, 0, 0.9);
     margin: 40px 0;
     width: 50%;
@@ -486,11 +499,17 @@ h3 {
 
 /*footer*/
 
+footer {
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
+}
+
 .footer-wrap {
     width: 100%;
     display: flex;
     background: linear-gradient(to right, rgb(56, 53, 53), rgb(56, 53, 53), rgb(175, 3, 3));
     padding-top: 1px;
+    padding-bottom: 1px;
     border-radius: 10% 10% / 10% 10%;
 }
 
@@ -498,12 +517,16 @@ h3 {
     width: 100%;
     display: flex;
     background: #000000;
-    color: rgb(211, 211, 211);
-    padding: 10px;
+    padding: 5px;
+    color: rgb(230, 230, 230);
     justify-content: center;
     align-items: center;
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
+}
+
+.footer p {
+    margin: 10px 0;
 }
 
 .footer a {
@@ -512,6 +535,7 @@ h3 {
     letter-spacing: 0.05em;
     font-weight: 600;
     color: rgb(56, 53, 53);
+    margin: 0;
 }
 
 .footer a:hover {
@@ -519,192 +543,6 @@ h3 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-decoration: none;
-}
-
-
-/* order online */
-
-.login {
-    height: 75vh;
-    padding-top: 50px;
-}
-
-.login h2 {
-    margin-bottom: 20px;
-}
-
-.dropdown-content a:hover:nth-last-child(-n+2) {
-    border: none;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 1);
-    padding: 20px 0;
-    min-width: 20vw;
-    min-height: 10vh;
-    line-height: 1.8;
-    font-size: 0.8em;
-}
-
-.dropdown-content a {
-    margin-top: 13px;
-    display: block;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-    border: none;
-}
-
-.mobdropdown-content {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 1);
-    min-width: 100vw;
-}
-
-.dropdown:hover .mobdropdown-content {
-    display: block;
-}
-
-.mobdropdown-content a {
-    padding-top: 20px;
-    text-decoration: none;
-    display: block;
-    text-align: center;
-}
-
-.orderbox {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    background-color: rgba(0, 0, 0, 0.85);
-}
-
-.ordercard {
-    width: 31%;
-    text-align: center;
-    background-color: rgba(211, 211, 211, 1);
-    padding: 5px;
-    margin: 10px;
-}
-
-.ordercard p {
-    color: rgba(0, 0, 0, 1);
-    font-weight: 600;
-}
-
-.ordercard h1 {
-    color: rgba(0, 0, 0, 1);
-    font-weight: 600;
-    font-size: 1.8em;
-    padding-top: 10px;
-}
-
-.ordercard .price {
-    color: rgba(127, 127, 128, 1);
-    font-size: 1.5em;
-    margin: 5px;
-}
-
-.ordercard img {
-    width: 100%;
-    height: 250px;
-}
-
-.ordercard button {
-    border: none;
-    outline: 0;
-    padding: 12px;
-    color: rgba(211, 211, 211, 1);
-    background-color: rgb(0, 0, 0);
-    text-align: center;
-    cursor: pointer;
-    width: 82%;
-    font-size: 1.4em;
-}
-
-.ordercard button:hover {
-    opacity: 0.7;
-}
-
-.ordercard input {
-    width: 13%;
-    margin-right: 5px;
-    font-size: 1.5em;
-    padding: 5px 0 7px 8px;
-}
-
-
-/* cart */
-
-.cartbox {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: start;
-    background-color: rgba(0, 0, 0, 0.85);
-}
-
-.carthead {
-    width: 100%;
-    margin: auto;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid rgb(124, 1, 1);
-}
-
-.cart {
-    width: 200px;
-    text-align: center;
-    background-color: rgba(211, 211, 211, 1);
-    padding: 5px;
-    margin: 10px;
-    flex-wrap: wrap;
-}
-
-.cart p {
-    color: rgb(0, 0, 0);
-    line-height: 0.5;
-    font-weight: 500;
-}
-
-.cart h1 {
-    color: rgba(0, 0, 0, 1);
-    font-weight: 600;
-    font-size: 1.8em;
-    padding-top: 10px;
-}
-
-.cart a {
-    text-decoration: none;
-    color: rgba(56, 53, 53, 1);
-    font-size: 1.3em;
-}
-
-.cart img {
-    width: 100%;
-    max-height: 100px;
-}
-
-.total {
-    width: 100%;
-    margin-top: 20px;
-    border-top: 1px solid rgb(124, 1, 1);
-    text-align: center;
-}
-
-.empticart {
-    width: 100%;
-    text-align: center;
-}
-
-.empticart a {
-    text-decoration: none;
-    color: rgb(211, 211, 211);
-    font-size: 1.3em;
-    margin-left: 15px;
-    margin-right: 15px;
 }
 
 
@@ -755,9 +593,9 @@ div.gallery img {
 
 .menu {
     width: 49.3%;
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(224, 224, 224);
     margin: 5px;
-    padding: 20px 10px;
+    padding: 10px 10px;
     display: grid;
     grid-template-columns: 10% 60% 30%;
     grid-template-rows: 50px;
@@ -772,20 +610,23 @@ div.gallery img {
     justify-self: center;
     align-self: center;
     font-size: 1.5em;
+    letter-spacing: 0.08em;
 }
 
 .bracket {
     color: rgb(0, 0, 0);
     font-weight: 500;
     font-size: 1.1em;
+    letter-spacing: 0.03em;
     grid-column-end: 3;
     justify-self: baseline;
-    margin: 5px;
+    margin: 0 5px;
 }
 
 .menu_span {
     color: rgb(0, 0, 0);
     font-size: 1.2em;
+    letter-spacing: 0.03em;
     font-weight: 600;
     grid-column-start: 2;
     justify-self: baseline;
@@ -798,9 +639,14 @@ div.gallery img {
     font-size: 1.3em;
     font-weight: 700;
     grid-column-start: 3;
+    display: grid;
     justify-self: center;
     align-self: center;
-    margin: 5px;
+    margin: 0;
+}
+
+.meat {
+    align-self: unset;
 }
 
 @media only screen and (max-width: 1440px) {
@@ -809,6 +655,9 @@ div.gallery img {
     }
     .cont {
         padding: 0 20px 30px 20px;
+    }
+    .texttext {
+        padding: 50px 50px 0 50px;
     }
     .text {
         padding: 0 10px 5px 10px;
@@ -824,18 +673,18 @@ div.gallery img {
     footer {
         width: 100%;
     }
+    .menu {
+        width: 49%;
+    }
+    .dessert {
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
     blockquote {
         padding-left: 150px;
         padding-right: 150px;
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-    .head {
-        padding: 10px 15px 10px 10px;
     }
 }
 
@@ -858,9 +707,15 @@ div.gallery img {
         text-align: center;
         font-size: 40px;
     }
+    .head {
+        padding: 5px;
+    }
+    .head h1 {
+        font-size: 1.3em;
+    }
     .nav li a {
         font-size: 1em;
-        padding: 2px 10px 2px 10px;
+        padding: 0px 3px;
         font-weight: 400;
     }
     .cont {
@@ -873,18 +728,13 @@ div.gallery img {
     .contphoto {
         padding: 40px 0 0 0;
     }
-    .form-class {
-        width: 70%;
-    }
-    .ordercard {
-        width: 45%;
+    .menu {
+        width: 100%;
+        padding-left: 0;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .nav ul {
-        padding: 0;
-    }
     h1 {
         font-size: 30px;
     }
@@ -934,25 +784,15 @@ div.gallery img {
     .cont p {
         line-height: 1.1;
     }
-    .head {
-        padding: 5px 0 5px 5px;
-        margin-right: 0;
-    }
-    .head h1 {
-        padding-top: 5px;
-    }
     .nav ul {
         margin-top: 8px;
         ;
-    }
-    .module {
-        padding: 7px;
     }
     .nav li:not(:last-child) {
         display: none;
     }
     .nav ul li:last-child {
-        padding: 0 8px 8px 8px;
+        padding: 0 8px;
         float: right;
         display: flex;
     }
@@ -962,9 +802,6 @@ div.gallery img {
     .reservation {
         width: 70%;
         padding-bottom: 10px;
-    }
-    .ordercard {
-        width: 100%;
     }
     .adress {
         width: 70%;
@@ -976,16 +813,11 @@ div.gallery img {
     .responsive_gall_2 {
         width: 100%;
     }
-    .menu {
-        width: 100%;
-    }
 }
 
 @media (max-width: 480px) {
-    .head h1 {
-        font-size: 25px;
-    }
     .parallax h1 {
+        font-size: 2.7em;
         letter-spacing: 0.1em;
     }
     .cont p {
@@ -997,15 +829,24 @@ div.gallery img {
     h1 {
         font-size: 20px;
     }
+    .head h1 {
+        font-size: 1em;
+    }
     .responsive_gall {
         width: 100%;
+    }
+    .center,
+    .menu_span,
+    .bracket {
+        font-size: 1em;
+    }
+    .menu_price {
+        font-size: 1em;
+        font-weight: 600;
     }
 }
 
 @media only screen and (max-width: 375px) {
-    .nav ul li:last-child {
-        padding: 0 8px;
-    }
     blockquote {
         min-height: 800px;
     }

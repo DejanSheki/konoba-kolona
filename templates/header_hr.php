@@ -7,10 +7,10 @@
             <nav>
                 <div class="nav">
                     <ul>
-                        <li><a href="index.php">Welcome</a></li>
-                        <li><a href="menu.php">Menu</a></li>
-                        <li><a href="gallery.php">Gallery</a></li>
-                        <li><a href="contact.php">Contact</a></li>
+                        <li><a href="index.php">Dobrodošli</a></li>
+                        <li><a href="menu.php">Meni</a></li>
+                        <li><a href="gallery.php">Galerija</a></li>
+                        <li><a href="contact.php">Kontakt</a></li>
                         <li><i class="fas fa-bars fa-2x"></i></li>
                     </ul>
                 </div>
@@ -18,10 +18,10 @@
             <div class="mobile-nav">
                 <div class="responsive-menu">
                     <ul>
-                        <li><a href="index.php">Welcome</a></li>
-                        <li><a href="menu.php">Menu</a></li>
-                        <li><a a href="gallery.php">Gallery</a></li>
-                        <li><a href="contact.php">Contact</a></li>
+                        <li><a href="index.php">Dobrodošli</a></li>
+                        <li><a href="menu.php">Meni</a></li>
+                        <li><a a href="gallery.php">Galerija</a></li>
+                        <li><a href="contact.php">Kontakt</a></li>
                     </ul>
                 </div>
             </div>

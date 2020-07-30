@@ -6,16 +6,19 @@ $(document).ready(function() {
     });
 });
 
-// active hover //
+/* active page */
 
-var header = document.getElementById("active");
-var btns = header.getElementsByClassName("activea");
-for (var i = 0; i < btns.length; i++) {
-    btns[i].addEventListener("click", function() {
-        var current = document.getElementsByClassName("active");
-        if (current.length > 0) {
-            current[0].className = current[0].className.replace(" active", "");
+$(function() {
+    // this will get the full URL at the address bar
+    var url = window.location.href;
+
+    // passes on every "a" tag
+    $(".nav a").each(function() {
+        // checks if its the same on the address bar
+        if (url == (this.href)) {
+            $(this).closest("li").addClass("active");
+            //for making parent of submenu active
+            $(this).closest("li").parent().parent().addClass("active");
         }
-        this.className += " active";
     });
-}
+});
