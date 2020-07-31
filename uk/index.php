@@ -29,7 +29,7 @@
 <body>
     <?php include('../templates/header.php'); ?>
      
-    <div class="parallax" data-parallax="scroll" data-speed="0.5" data-image-src="../images/glasses.jpg"><h1>Welcome</h1></div>
+    <div class="parallax" data-parallax="scroll" data-speed="0.5" data-image-src="../images/welcome.jpg"><h1>Welcome</h1></div>
     <div class="container"> 
 
         <section class="contwrap">
@@ -44,7 +44,7 @@
             </div>
             <div class="cont">
                 <div class="contphoto" data-aos="zoom-in" data-aos-duration="1500" data-aos-offset="300">
-                <img src="../images/ambience.jpg">
+                <img src="../images/enterijer1.jpg">
                 </div>
             </div>
         </section>  
@@ -52,7 +52,7 @@
         <section class="contwrap">
             <div class="cont">
                 <div class="contphoto" data-aos="zoom-in" data-aos-duration="1500" data-aos-offset="300">
-                <img src="../images/vegetables1.jpg">
+                <img src="../images/hrana7.jpg">
                 </div>
             </div>
             <div class="cont texttext">

@@ -44,7 +44,7 @@
             </div>
             <div class="cont">
                 <div class="contphoto" data-aos="zoom-in" data-aos-duration="1500" data-aos-offset="300">
-                <img src="../images/environment.jpg">
+                <img src="../images/enterijer1.jpg">
                 </div>
             </div>
         </section>  
