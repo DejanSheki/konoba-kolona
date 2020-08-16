@@ -106,11 +106,14 @@ body {
 }
 
 @media only screen and (max-width: 480px) {
+    .welcomebody {
+        height: 90vh;
+    }
     .welcome {
         width: 297px;
     }
     .welcomebtn {
-        margin: 0px 43px 31px 44px;
+        margin: 0px 43px 35px 44px;
         width: 44px;
         height: 21px;
     }

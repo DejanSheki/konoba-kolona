@@ -8,10 +8,9 @@
 
     <title>Konoba Kolona | Cavtat</title>
 
-    <meta name="description" content="Restaurant, Cavtat, Seafood">
+    <meta name="description" content="Book a table in a restaurant with wide selection of fresh fish, seafood and local wines. We are situated in Cavtat, charming little town with long tradition.">
+    <meta name="keywords" content="Fish Restaurant, Cavtat, Seafood Restaurant, Lobster Restaurant">
     <meta name="author" content="Dejan Lukic">
-    <meta name="keywords" content="Restaurant, Cavtat, Fish, Food">
-    <meta name="robots" content="index, follow">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
 
@@ -21,7 +20,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
 
-    <script src="JavaScript/jquery-1.10.2.js" type="text/javascript"></script> 
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../script/main.js"></script>
+    <script type="text/javascript" src="../script/carousel.js"></script>
+    <script type="text/javascript" src="../script/parallax.min.js"></script>
     <script src="https://kit.fontawesome.com/ccf2869940.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 </head>
@@ -29,7 +31,7 @@
 <body>
     <?php include('../templates/header.php'); ?>
      
-    <div class="parallax" data-parallax="scroll" data-speed="0.5" data-image-src="../images/welcome.jpg"><h1>Welcome</h1></div>
+    <div class="parallax" data-parallax="scroll" data-speed="0.5" data-image-src="../images/welcome10.jpg"></div>
     <div class="container"> 
 
         <section class="contwrap">
@@ -44,7 +46,7 @@
             </div>
             <div class="cont">
                 <div class="contphoto" data-aos="zoom-in" data-aos-duration="1500" data-aos-offset="300">
-                <img src="../images/enterijer1.jpg">
+                <img src="../images/slika2.jpg">
                 </div>
             </div>
         </section>  
@@ -52,7 +54,7 @@
         <section class="contwrap">
             <div class="cont">
                 <div class="contphoto" data-aos="zoom-in" data-aos-duration="1500" data-aos-offset="300">
-                <img src="../images/hrana7.jpg">
+                <img src="../images/hrana8.jpg">
                 </div>
             </div>
             <div class="cont texttext">
@@ -78,7 +80,7 @@
             </div>
             <div class="cont">
                 <div class="contphoto" data-aos="zoom-in" data-aos-duration="1500" data-aos-offset="200">
-                <img src="../images/wine1.jpg">
+                <img src="../images/wine.jpg">
                 </div>
             </div>
         </section>
@@ -155,6 +157,16 @@
                         </blockquote>
                     </div>                   
                 </div>
+                <div class="testemonials">
+                    <div class="slides">
+                        <blockquote>
+                            <h2>Great food</h2>
+                            <p>Owned and run by a local fisherman, if you like seafood this place is a must. However don't rule out the meat options which are also superb. One of my favourite restaurants in the world, numerous visits over the last 7 years never a bad meal. Highly recommended.</p>
+                            <p>Date of visit: 8 August 2019 </p>
+                            <a href="https://www.facebook.com/pg/konobaKolona/reviews/?ref=page_internal" target="_popup" onclick="window.open('https://www.facebook.com/pg/konobaKolona/reviews/?ref=page_internal','popup','width=700,height=700'); return false;">https://www.facebook.com</a>
+                        </blockquote>
+                    </div>                   
+                </div>
                 <div class="dot-container">
                     <span class="dot" onclick="currentSlide(1)"></span>
                     <span class="dot" onclick="currentSlide(2)"></span>
@@ -163,6 +175,7 @@
                     <span class="dot" onclick="currentSlide(5)"></span>
                     <span class="dot" onclick="currentSlide(6)"></span>
                     <span class="dot" onclick="currentSlide(7)"></span>
+                    <span class="dot" onclick="currentSlide(8)"></span>
                 </div>
             </div>
         </section> 
@@ -172,10 +185,6 @@
     <script>
        AOS.init();
     </script>
-    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-    <script src="../script/main.js"></script>
-    <script src="../script/carousel.js"></script>
-    <script src="../script/parallax.min.js"></script>
 </body>
 
 </html>

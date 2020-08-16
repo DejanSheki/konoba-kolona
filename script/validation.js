@@ -1,10 +1,11 @@
 function sendEmail() {
     var name = $("#name");
     var email = $("#email");
+    var person = $("#person");
     var dateandtime = $("#dateandtime");
     var message = $("#message");
 
-    if (isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(dateandtime) && isNotEmpty(message)) {
+    if (isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(dateandtime) && isNotEmpty(person)) {
         $.ajax({
             url: '../reservation_mail.php',
             method: 'POST',
@@ -12,6 +13,7 @@ function sendEmail() {
             data: {
                 name: name.val(),
                 email: email.val(),
+                person: person.val(),
                 dateandtime: dateandtime.val(),
                 message: message.val()
             },

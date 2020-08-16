@@ -3,7 +3,7 @@
 <header class="head">
     <div class="module-border-wrap">  
         <div class="module">
-        <div class="logo"><a href="../welcome.php"><img src="../images/Logo1.png"></a><h1>Konoba Kolona</h1></div>    
+        <div class="logo"><a href="../welcome.php"><img src="../images/logo1.png"></a><h1>Konoba Kolona</h1></div>    
             <nav>
                 <div class="nav">
                     <ul>

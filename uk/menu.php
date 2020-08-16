@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Konoba Kolona | Cavtat</title>
+    <title>Konoba Kolona | Cavtat | Menu</title>
 
     <meta name="description" content="Restaurant, Cavtat, Seafood">
     <meta name="author" content="Dejan Lukic">
@@ -20,6 +20,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
 
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../script/main.js"></script>
     <script src="https://kit.fontawesome.com/ccf2869940.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 </head>
@@ -99,9 +101,7 @@
 		</div>
 			<?php include('../templates/footer.php'); ?>
 	</div>
-	<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-    <script src="../script/main.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
        AOS.init();
     </script>	

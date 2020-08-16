@@ -5,23 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Konoba Kolona | Cavtat</title>
+    <title>Konoba Kolona | Cavtat | Contact</title>
 
-    <meta name="description" content="Restaurant, Cavtat, Seafood">
-    <meta name="author" content="Dejan Lukic">
+    <meta name="description" content="Book a table in a restaurant with wide selection of fresh fish, seafood and local wines. We are situated in Cavtat, charming little town with long tradition.">
     <meta name="keywords" content="Restaurant, Cavtat, Fish, Food">
-    <meta name="robots" content="index, follow">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
 
-    <link rel="stylesheet" href="../css/normalize.css">
-    <link href="../css/style.css" type="text/css" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link type="text/css" rel="stylesheet" href="../css/normalize.css">
+	<link href="../css/style.css" type="text/css" rel="stylesheet">
+	<link type="text/css" href="../css/jquery.simple-dtpicker.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
-
+	<link href="https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+	
+	<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="../script/main.js"></script>
+	<script type="text/javascript" src="../script/validation.js"></script>
+	<script src="//code.jquery.com/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/ccf2869940.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="../script/jquery.simple-dtpicker.js"></script>
+
 </head>
 <body>
 	<?php include('../templates/header.php'); ?>
@@ -36,7 +41,7 @@
 						<form  class="form-class" id="myForm" >			
 							<div class="form">
 								<div class="input">
-									<input type="text"  class="formcontrol" id="name"  placeholder="Your name" required>
+									<input type="text"  class="formcontrol" id="name" name="name"  placeholder="Your name" required>
 								</div>
 							</div>
 							<div class="form">
@@ -46,12 +51,22 @@
 							</div>
 							<div class="form">
 								<div class="input">
-									<input type="text"  class="formcontrol" id="dateandtime"  placeholder="Date and time" required>
+									<input type="text"  class="formcontrol" id="person" pattern="\d+" placeholder="Number of person" required>
 								</div>
 							</div>
 							<div class="form">
 								<div class="input">
-									<textarea id="message" class="formcontrol"  rows="6" maxlength="3000" placeholder="Your message" required></textarea>
+								<label for="date">Date and time</label>
+								<input type="text" id="dateandtime" name="date" class="formcontrol" required>
+									<script>$(function(){
+										$('*[name=date]').appendDtpicker();
+									});
+									</script>
+								</div>
+							</div>
+							<div class="form">
+								<div class="input">
+									<textarea id="message" class="formcontrol"  rows="6" maxlength="3000" placeholder="Your message"></textarea>
 								</div>
 							</div>
 							<div class="form">
@@ -81,8 +96,5 @@
 
 		<?php include('../templates/footer.php'); ?>
 	</div>
-	
-	<script src="../script/main.js"></script>
-	<script src="../script/validation.js"></script>
 </body>
 </html>
