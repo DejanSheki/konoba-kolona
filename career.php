@@ -2,7 +2,7 @@
 
 if(isset($_POST['button']) && isset($_FILES['attachment']))
 {
-	$recipient_email = 'dejan.sheki.lukic@gmail.com'; //from mail, sender email address
+	$recipient_email = 'dejan.sheki.lukic@gmail.com, konobakolona@gmail.com'; //from mail, sender email address
 	$from_email = 'Konkurs@posao'; //recipient email address
 	$subject = 'Posao'; //subject for the email
 	

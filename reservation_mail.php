@@ -24,6 +24,7 @@ if($_POST) {
     $to = "dejan.sheki.lukic@gmail.com, konobakolona@gmail.com";
     $subject = "Rezervacije";
     $headers = "From: Online@rezervacije";
+    $headers .= "Reply-To: ".$email."\r\n"; // Email address to reach back
     $body = "\r\n Ime: " . $name;
     $body .= "\r\n Email: " . $email;
     $body .= "\r\n Broj gostiju: " . $person;
