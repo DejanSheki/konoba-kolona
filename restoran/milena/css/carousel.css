@@ -1,0 +1,147 @@
+.testemonials {
+    position: relative;
+    background-color: #000;
+    display: flex;
+    flex-flow: column nowrap;
+    /* fix IE11 */
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 15px;
+    width: 49%;
+}
+
+.pro {
+    margin-top: 50px;
+}
+
+.slides {
+    margin-top: 500px;
+    padding: 40px;
+    text-align: center;
+    flex: 1 1 auto;
+    overflow: hidden;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: 200px;
+    padding: 5px 13px;
+    color: rgb(132, 9, 148);
+    font-weight: bolder;
+    font-size: 2em;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgb(36, 1, 77);
+}
+
+.dot-container {
+    display: none;
+    text-align: center;
+    padding: 20px;
+    background: #000;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rgb(132, 9, 148);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+}
+
+.active.dot,
+.dot:hover {
+    background-color: rgb(36, 1, 77);
+    border-radius: 50%;
+}
+
+blockquote {
+    width: 70%;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 25px 10px 25px;
+    border-left: 1px solid rgb(248, 237, 245);
+    position: relative;
+    min-height: 520px;
+}
+
+blockquote p {
+    font-family: "Lato-italic";
+    font-weight: lighter;
+    font-style: italic;
+    margin-top: 25px;
+}
+
+blockquote a {
+    text-decoration: none;
+    color: rgb(87, 47, 127);
+    ;
+}
+
+blockquote::before {
+    font-family: 'Varela', sans-serif;
+    content: "\201C";
+    color: rgb(248, 237, 245);
+    font-size: 11em;
+    position: absolute;
+    left: 10px;
+    top: -50px;
+    line-height: 1em;
+}
+
+blockquote::after {
+    content: '';
+}
+
+@media only screen and (max-width: 1280px) {
+    .slides {
+        margin-top: 100px;
+    }
+    .prev,
+    .next {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .testemonials {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .slides {
+        padding-right: 0;
+    }
+    blockquote {
+        margin: 0;
+        padding: 10px 0 10px 5px;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    blockquote {
+        padding: 10px 0 0 0;
+        border-left: none;
+    }
+}

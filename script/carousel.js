@@ -1,10 +1,10 @@
-var slideIndex = 1;
+var slideIndex = 4;
 var myTimer;
 var slideshowContainer;
 
 window.addEventListener("load", function() {
     showSlides(slideIndex);
-    myTimer = setInterval(function() { plusSlides(1) }, 4000);
+    myTimer = setInterval(function() { plusSlides(1) }, 8000);
 
     slideshowContainer = document.getElementsByClassName('slides')[0];
 
@@ -21,15 +21,15 @@ function plusSlides(n) {
     }
 
     if (n === -1) {
-        myTimer = setInterval(function() { plusSlides(n + 2) }, 4000);
+        myTimer = setInterval(function() { plusSlides(n + 2) }, 8000);
     } else {
-        myTimer = setInterval(function() { plusSlides(n + 1) }, 4000);
+        myTimer = setInterval(function() { plusSlides(n + 1) }, 8000);
     }
 }
 
 function currentSlide(n) {
     clearInterval(myTimer);
-    myTimer = setInterval(function() { plusSlides(n + 1) }, 4000);
+    myTimer = setInterval(function() { plusSlides(n + 1) }, 8000);
     showSlides(slideIndex = n);
 }
 
@@ -60,5 +60,5 @@ pause = () => {
 
 resume = () => {
     clearInterval(myTimer);
-    myTimer = setInterval(function() { plusSlides(slideIndex) }, 4000);
+    myTimer = setInterval(function() { plusSlides(slideIndex) }, 8000);
 }

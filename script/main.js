@@ -22,3 +22,18 @@ $(function() {
         }
     });
 });
+
+//change language
+
+const slika = document.getElementById('slika');
+
+function changeLanguage() {
+    if (slika.getAttribute('src') == "../images/GB1.png") {
+        window.location.href = "../index.php";
+    }
+    if (slika.getAttribute('src') == "images/HR1.png") {
+        window.location.href = "hr/welcome.php";
+    }
+}
+
+slika.addEventListener('click', changeLanguage);

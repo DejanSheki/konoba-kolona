@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: rgb(0, 0, 0);
+  width: 100%;
+  color: rgb(247, 247, 250);
+}
+img {
+  width: 100%;
+  display: block;
+}
+header div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 55%;
+  font-size: calc(0.6rem + 0.8906vw);
+  line-height: 2;
+  padding: 1rem 0;
+}
+header div {
+  width: 40%;
+}
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.checkbox {
+  margin-left: 5px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: rgb(247, 247, 250);
+}
+
+.positions {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background: rgb(247, 247, 250);
+  padding: 2rem 0;
+}
+.positions span {
+  position: relative;
+  bottom: 30px;
+  left: 5px;
+  color: rgb(247, 247, 250);
+  font-size: calc(0.3rem + 0.2365vw);
+}
+.positions span a {
+  color: rgb(247, 247, 250);
+}
+.positions div:first-child {
+  width: 40%;
+}
+.open-positions {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: calc(0.6rem + 0.8906vw);
+  line-height: 1.5;
+}
+.open-positions h5 {
+  margin-left: 15px;
+}
+.form {
+  margin-top: 2rem;
+}
+.form h2 {
+  margin: 1.5rem 0;
+  /* font-size: calc(); */
+}
+.form p {
+  margin: 15px 0;
+}
+input,
+textarea,
+button {
+  font-family: inherit;
+  background: transparent;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-bottom: 2px solid rgb(65, 66, 65);
+  margin-bottom: 10px;
+}
+input[type="submit"] {
+  background: rgb(65, 66, 65);
+  border: 2px solid transparent;
+  margin-top: 10px;
+  color: rgb(247, 247, 250);
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.message {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 700px) {
+  header {
+    flex-direction: column;
+  }
+  header div:first-child {
+    width: 100%;
+  }
+  header div {
+    width: 100%;
+  }
+}

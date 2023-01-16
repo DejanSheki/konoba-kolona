@@ -14,7 +14,9 @@ body {
 
 .welcomebody {
     display: flex;
+    display: -webkit-flex; /* NEW */
     flex-wrap: wrap;
+    -webkit-flex-wrap: wrap; /* NEW */
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -60,6 +62,14 @@ body {
     margin: 0 211px 210px 209px;
     z-index: 1000;
 }
+.welcomebtn:hover {
+    transform: scale(1.1);
+    transition: .4s ease;
+    -webkit-transition: .4s ease;
+    -moz-transition: .4s ease;
+    -o-transition: .4s ease;
+    box-shadow: 10px 1px 10px 3px rgb(49, 49, 49);
+}
 
 .hr {
     background-image: url('../images/cro.png');
@@ -88,7 +98,7 @@ body {
         padding-bottom: 65px;
     }
     .welcomebtn {
-        margin: 0 121px 116px 122px;
+        margin: 0 121px 150px 122px;
         width: 62px;
         height: 29px;
     }
@@ -101,18 +111,21 @@ body {
         border-radius: 0;
     }
     .welcomebtn {
-        margin: 0 81px 42px 81px;
+        margin: 0 85px 60px 85px;
     }
 }
 
 @media only screen and (max-width: 480px) {
+    .welcomebody {
+        height: 90vh;
+    }
     .welcome {
         width: 297px;
     }
     .welcomebtn {
-        margin: 0px 43px 31px 44px;
-        width: 44px;
-        height: 21px;
+        margin: 0px 65px 45px 65px;
+        width: 36px;
+        height: 17px;
     }
 }
 
@@ -130,10 +143,10 @@ body {
         padding: 15px;
     }
     .hr {
-        margin: 0 103px 0 0;
+        margin: 40px 77px 0 0;
     }
     .uk {
-        margin: 0 0 0 100px;
+        margin: 40px 0 0 77px;
     }
 }
 
@@ -141,4 +154,11 @@ body {
     .kolona {
         display: none;
     }
+
+}
+@media (orientation: landscape) and (max-width: 766px) {
+    .welcomebtn {
+        margin: 0 81px 85px 81px;
+    }
+
 }
