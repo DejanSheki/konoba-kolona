@@ -676,11 +676,19 @@ footer {
   color: rgb(119, 98, 3);
   font-size: 1.3em;
   font-weight: 700;
-  grid-column-start: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* grid-column-start: 3;
   display: grid;
   justify-self: center;
-  align-self: center;
+  align-self: center; */
   margin: 8px 0 0 0;
+}
+
+.menu_price span {
+  font-size: 0.9rem;
+  font-weight: 500;
 }
 /* Retina */
 
@@ -914,6 +922,9 @@ footer {
   .menu_price {
     font-size: 1em;
     font-weight: 600;
+  }
+  .menu_price span {
+    font-size: 0.7rem;
   }
 }
 
