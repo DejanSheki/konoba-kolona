@@ -2,38 +2,38 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>Konoba Kolona | Cavtat | Menu</title>
 
     <meta name="description"
-        content="Book a table in a restaurant with wide selection of fresh fish, seafood and local wines. We are situated in Cavtat, charming little town with long tradition." />
-    <meta name="author" content="Dejan Lukic" />
-    <meta name="keywords" content="Restaurant, Cavtat, Fish, Food" />
-    <meta name="robots" content="nofollow" />
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
+        content="Book a table in a restaurant with wide selection of fresh fish, seafood and local wines. We are situated in Cavtat, charming little town with long tradition.">
+    <meta name="author" content="Dejan Lukic">
+    <meta name="keywords" content="Restaurant, Cavtat, Fish, Food">
+    <meta name="robots" content="nofollow">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
 
-    <meta property="og:type" content="restaurant.menu" />
-    <meta property="og:title" content="Konoba Kolona | Cavtat | Menu" />
+    <meta property="og:type" content="restaurant.menu">
+    <meta property="og:title" content="Konoba Kolona | Cavtat | Menu">
     <meta property="og:description"
-        content="Book a table in a restaurant with wide selection of fresh fish, seafood and local wines. We are situated in Cavtat, charming little town with long tradition." />
-    <meta property="og:url" content="https://konobakolona.com/menu" />
-    <meta property="og:image" content="https://konobakolona.com/images/welcomephoto.jpg" />
-    <meta property="restaurant:restaurant" content="https://konobakolona.com" />
-    <meta property="og:image:alt" content="Octopus salad" />
-    <meta property="restaurant:contact_info:website" content="https://konobakolona.com" />
-    <meta property="og:site_name" content="Konoba Kolona" />
+        content="Book a table in a restaurant with wide selection of fresh fish, seafood and local wines. We are situated in Cavtat, charming little town with long tradition.">
+    <meta property="og:url" content="https://konobakolona.com/menu">
+    <meta property="og:image" content="https://konobakolona.com/images/welcomephoto.jpg">
+    <meta property="restaurant:restaurant" content="https://konobakolona.com">
+    <meta property="og:image:alt" content="Octopus salad">
+    <meta property="restaurant:contact_info:website" content="https://konobakolona.com">
+    <meta property="og:site_name" content="Konoba Kolona">
 
-    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link href="css/style.css" type="text/css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet" />
+        rel="stylesheet">
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
@@ -63,35 +63,30 @@
     <?php include('templates/header.php'); ?>
 
     <div class="container">
+
         <div class="contwrap">
             <div class="menu" data-aos="zoom-in-up" data-aos-duration="1500">
                 <h2 class="center">COLD STARTERS</h2>
                 <p class="end menu_span">Fish pâté</p>
-                <p class="end menu_price">5 &#8364; &nbsp;<span> (37,67 kn)</span></p>
+                <p class="end menu_price">36 kn / 4.80 EUR</p>
                 <p class="end menu_span">Mixed plate</p>
-                <p class="end menu_price">
-                    13,50 &#8364; &nbsp;<span> (97,95 kn)</span>
-                </p>
-                <p class="bracket">
-                    (dalmatian prosciutto & domestic cheese, dried fruits)
-                </p>
+                <p class="end menu_price">95 kn / 12.60 EUR</p>
+                <p class="bracket"> (dalmatian prosciutto & domestic cheese, dried fruits)</p>
                 <p class="end menu_span">Octopus salad</p>
                 <p class="end menu_price">95 kn / 12.60 EUR</p>
-                <p class="bracket">(cherry tomatoes, onion, capers)</p>
+                <p class="bracket"> (cherry tomatoes, onion, capers)</p>
                 <p class="end menu_span">Mozzarella burrata</p>
                 <p class="end menu_price">70 kn / 9.30 EUR</p>
-                <p class="bracket">(tomatoes, basil, olive oil)</p>
+                <p class="bracket"> (tomatoes, basil, olive oil)</p>
                 <p class="end menu_span">Fish carpaccio</p>
                 <p class="end menu_price">95 kn / 12.60 EUR</p>
-                <p class="bracket">(aurugula, parmigiano)</p>
+                <p class="bracket"> (aurugula, parmigiano)</p>
                 <p class="menu_span">Octopus carpaccio</p>
                 <p class="menu_price">95 kn / 12.60 EUR</p>
-                <p class="bracket">(aurugula, parmigiano)</p>
+                <p class="bracket"> (aurugula, parmigiano)</p>
                 <p class="end menu_span">Fish plate</p>
                 <p class="end menu_price">115 kn / 15.30 EUR</p>
-                <p class="bracket">
-                    (bruschette, avocado cream, marinated and smoked fish)
-                </p>
+                <p class="bracket"> (bruschette, avocado cream, marinated and smoked fish)</p>
                 <p class="end menu_span">Fish tartar</p>
                 <p class="end menu_price">90 kn / 11.95 EUR</p>
             </div>
@@ -99,10 +94,10 @@
                 <h2 class="center">WARM STARTERS</h2>
                 <p class="end menu_span">Mussels buzara</p>
                 <p class="end menu_price">90 kn / 11.95 EUR</p>
-                <p class="bracket">(garlic, white wine, mashed tomatoes)</p>
+                <p class="bracket"> (garlic, white wine, mashed tomatoes)</p>
                 <p class="end menu_span">Mixed buzara</p>
                 <p class="end menu_price">120 kn / 15.90 EUR</p>
-                <p class="bracket">(mussels, clams, vongole, prawns)</p>
+                <p class="bracket"> (mussels, clams, vongole, prawns)</p>
                 <p class="menu_span">Bavette with swordfish and chilli</p>
                 <p class="menu_price">95 kn / 12.60 EUR</p>
                 <p class="menu_span">Black risotto with cuttlefish</p>
@@ -151,9 +146,7 @@
                 <p class="bracket">(asparagus in butter, celery and fennel cream)</p>
                 <p class="end menu_span">Fish platter for two</p>
                 <p class="end menu_price">370 kn / 49.10 EUR</p>
-                <p class="bracket">
-                    (fresh fish,squid,shrimp, scampi, mixed boiled vegetables)
-                </p>
+                <p class="bracket">(fresh fish,squid,shrimp, scampi, mixed boiled vegetables)</p>
                 <p class="end menu_span">Roasted octopus with potatoes</p>
                 <p class="end menu_price">170 kn / 22.60 EUR</p>
             </div>
@@ -167,9 +160,7 @@
                 <p class="bracket">(rosemary sauce, julienne vegetables, potatoes)</p>
                 <p class="end menu_span">Filet mignon 200g</p>
                 <p class="end menu_price">200 kn / 26.50 EUR</p>
-                <p class="bracket">
-                    (red wine sauce, ratatouille vegetables, potatoes)
-                </p>
+                <p class="bracket">(red wine sauce, ratatouille vegetables, potatoes)</p>
                 <p class="end menu_span">Duck breasts</p>
                 <p class="end menu_price">170 kn / 22.60 EUR</p>
                 <p class="bracket">(squash purre, grilled vegetables)</p>
@@ -183,9 +174,7 @@
                 <p class="end menu_price">75 kn / 9.95 EUR</p>
                 <p class="end menu_span">Grilled vegetables with mozzarella</p>
                 <p class="end menu_price">90 kn / 11.95 EUR</p>
-                <p class="end menu_span">
-                    Istrian pasta (fuži) with porcini mushrooms
-                </p>
+                <p class="end menu_span">Istrian pasta (fuži) with porcini mushrooms</p>
                 <p class="end menu_price">95 kn / 12.60 EUR</p>
             </div>
             <div class="menu" data-aos="zoom-in-up" data-aos-duration="1500">
@@ -196,10 +185,7 @@
                 <p class="end menu_price">50 kn / 6.65 EUR</p>
                 <p class="end menu_span">Chef's salad</p>
                 <p class="end menu_price">60 kn / 8 EUR</p>
-                <p class="bracket">
-                    (cucumbers, aurugula, chicory, spinach, cycle, riccota cheese, pine
-                    nuts)
-                </p>
+                <p class="bracket">(cucumbers, aurugula, chicory, spinach, cycle, riccota cheese, pine nuts)</p>
             </div>
             <div class="menu" data-aos="zoom-in-up" data-aos-duration="1500">
                 <h2 class="center">CHILDREN'S MENU</h2>
@@ -251,7 +237,7 @@
 
     <script>
     AOS.init({
-        disable: true,
+        disable: true
     });
     </script>
 
