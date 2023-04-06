@@ -68,146 +68,157 @@
             <div class="menu" data-aos="zoom-in-up" data-aos-duration="1500">
                 <h2 class="center">COLD STARTERS</h2>
                 <p class="end menu_span">Fish pâté</p>
-                <p class="end menu_price">36 kn / 4.80 EUR</p>
+                <p class="end menu_price">5 &#8364; &nbsp;<span> (37,67 kn)</span></p>
                 <p class="end menu_span">Mixed plate</p>
-                <p class="end menu_price">95 kn / 12.60 EUR</p>
+                <p class="end menu_price">13,50 &#8364; &nbsp;<span> (97,95 kn)</span></p>
                 <p class="bracket"> (dalmatian prosciutto & domestic cheese, dried fruits)</p>
                 <p class="end menu_span">Octopus salad</p>
-                <p class="end menu_price">95 kn / 12.60 EUR</p>
+                <p class="end menu_price">14 &#8364; &nbsp;<span> (105,48 kn)</span></p>
                 <p class="bracket"> (cherry tomatoes, onion, capers)</p>
                 <p class="end menu_span">Mozzarella burrata</p>
-                <p class="end menu_price">70 kn / 9.30 EUR</p>
+                <p class="end menu_price">10 &#8364; &nbsp;<span> (75,34 kn)</span></p>
                 <p class="bracket"> (tomatoes, basil, olive oil)</p>
                 <p class="end menu_span">Fish carpaccio</p>
-                <p class="end menu_price">95 kn / 12.60 EUR</p>
+                <p class="end menu_price">14 &#8364; &nbsp;<span> (105,48 kn)</span></p>
                 <p class="bracket"> (aurugula, parmigiano)</p>
                 <p class="menu_span">Octopus carpaccio</p>
-                <p class="menu_price">95 kn / 12.60 EUR</p>
+                <p class="menu_price">14 &#8364; &nbsp;<span> (105,48 kn)</span></p>
                 <p class="bracket"> (aurugula, parmigiano)</p>
                 <p class="end menu_span">Fish plate</p>
-                <p class="end menu_price">115 kn / 15.30 EUR</p>
+                <p class="end menu_price">15 &#8364; &nbsp;<span> (113 kn)</span></p>
                 <p class="bracket"> (bruschette, avocado cream, marinated and smoked fish)</p>
                 <p class="end menu_span">Fish tartar</p>
-                <p class="end menu_price">90 kn / 11.95 EUR</p>
+                <p class="end menu_price">13,50 &#8364; &nbsp;<span> (97,95 kn)</span></p>
             </div>
             <div class="menu" data-aos="zoom-in-up" data-aos-duration="1500">
                 <h2 class="center">WARM STARTERS</h2>
                 <p class="end menu_span">Mussels buzara</p>
-                <p class="end menu_price">90 kn / 11.95 EUR</p>
+                <p class="end menu_price">14 &#8364; &nbsp;<span> (105,48 kn)</span></p>
                 <p class="bracket"> (garlic, white wine, mashed tomatoes)</p>
                 <p class="end menu_span">Mixed buzara</p>
-                <p class="end menu_price">120 kn / 15.90 EUR</p>
+                <p class="end menu_price">17 &#8364; &nbsp;<span> (128,08 kn)</span></p>
                 <p class="bracket"> (mussels, clams, vongole, prawns)</p>
                 <p class="menu_span">Bavette with swordfish and chilli</p>
-                <p class="menu_price">95 kn / 12.60 EUR</p>
+                <p class="menu_price">15 &#8364; &nbsp;<span> (113 kn)</span></p>
                 <p class="menu_span">Black risotto with cuttlefish</p>
-                <p class="menu_price">95 kn / 12.60 EUR</p>
+                <p class="menu_price">15 &#8364; &nbsp;<span> (113 kn)</span></p>
                 <p class="menu_span">Prawns in tempura on arugula, soya souce</p>
-                <p class="menu_price">130 kn / 17.25 EUR</p>
+                <p class="menu_price">18,50 &#8364; &nbsp;<span> (139,39 kn)</span></p>
                 <p class="menu_span">Asparagus and prawn risotto</p>
-                <p class="menu_price">105 kn / 13.90 EUR</p>
-                <p class="end menu_span">Grilled scampi on a bed of rice</p>
-                <p class="end menu_price">170 kn / 22.56 EUR</p>
-                <p class="end menu_span">Ravioli with goat cheese and beef noodles</p>
-                <p class="end menu_price">95 kn / 12.60 EUR</p>
+                <p class="menu_price">15,50 &#8364; &nbsp;<span> (116,78 kn)</span></p>
+                <p class="end menu_span">Grilled scampi on a bed of rice in butter</p>
+                <p class="end menu_price">23 &#8364; &nbsp;<span> (173,29 kn)</span></p>
+                <p class="end menu_span">Scallops fisherman's style</p>
+                <p class="end menu_price">17 &#8364; &nbsp;<span> (128,08 kn)</span></p>
             </div>
             <div class="menu dessert" data-aos="zoom-in" data-aos-duration="1500">
                 <h2 class="center">SOUPS</h2>
                 <p class="menu_span">Fish soup</p>
-                <p class="menu_price">48 kn / 6.40 EUR</p>
+                <p class="menu_price">7 &#8364; &nbsp;<span> (52,74 kn)</span></p>
                 <p class="menu_span">Squash soup with pumpkin seed oil</p>
-                <p class="menu_price">48 kn / 6.40 EUR</p>
-                <p class="menu_span">Daily soup</p>
-                <p class="menu_price">36 kn / 4.80 EUR</p>
+                <p class="menu_price">7 &#8364; &nbsp;<span> (52,74 kn)</span></p>
+                <p class="menu_span">Prawn and zucchini soup</p>
+                <p class="menu_price">9 &#8364; &nbsp;<span> (67,81 kn)</span></p>
             </div>
             <div class="menu" data-aos="zoom-in-up" data-aos-duration="1500">
                 <h2 class="center">FISH DISHES</h2>
+                <p class="end menu_span">Fresh sea fish (portion)</p>
+                <p class="end menu_price">18 &#8364; &nbsp;<span> (135,62 kn)</span></p>
                 <p class="end menu_span">Daily fresh sea fish 1kg</p>
-                <p class="end menu_price">420 kn / 55.70 EUR</p>
+                <p class="end menu_price">56 &#8364; &nbsp;<span> (421,93 kn)</span></p>
                 <p class="menu_span">Adriatic lobster 1kg</p>
-                <p class="menu_price">700 kn / 92.90 EUR</p>
+                <p class="menu_price">90 &#8364; &nbsp;<span> (678,10 kn)</span></p>
                 <p class="end menu_span">Fish skewers</p>
-                <p class="end menu_price">150 kn / 19.20 EUR</p>
-                <p class="bracket">(fish, prawn, squid)</p>
+                <p class="end menu_price">20 &#8364; &nbsp;<span> (150,69 kn)</span></p>
+                <p class="bracket">(seasonal vegetables)</p>
                 <p class="end menu_span">Grilled squid</p>
-                <p class="end menu_price">120 kn / 15.90 EUR</p>
+                <p class="end menu_price">16 &#8364; &nbsp;<span> (120,55 kn)</span></p>
                 <p class="bracket">(swiss chard, potatoes)</p>
                 <p class="end menu_span">Fried squid</p>
-                <p class="end menu_price">120 kn / 15.90 EUR</p>
-                <p class="bracket">(fries potatoes)</p>
+                <p class="end menu_price">16 &#8364; &nbsp;<span> (120,55 kn)</span></p>
+                <p class="bracket">(fried potatoes)</p>
                 <p class="end menu_span">Grilled tuna steak</p>
-                <p class="end menu_price">150 kn / 19.20 EUR</p>
-                <p class="bracket">(balsamico sauce zucchini, green beans)</p>
+                <p class="end menu_price">20 &#8364; &nbsp;<span> (150,69 kn)</span></p>
+                <p class="bracket">(with cuttlefish ink fettuccine)</p>
                 <p class="end menu_span">Grilled swordfish steak</p>
-                <p class="end menu_price">160 kn / 21.20 EUR</p>
-                <p class="bracket">(season vegetables, marinated tomatoes)</p>
+                <p class="end menu_price">21 &#8364; &nbsp;<span> (158,22 kn)</span></p>
+                <p class="bracket">(with black lentils)</p>
                 <p class="end menu_span">Adriatic Seabass filet</p>
-                <p class="end menu_price">150 kn / 19.20 EUR</p>
-                <p class="bracket">(asparagus in butter, celery and fennel cream)</p>
+                <p class="end menu_price">22 &#8364; &nbsp;<span> (165,75 kn)</span></p>
+                <p class="bracket">(seasonal vegetables, celery and fennel cream)</p>
                 <p class="end menu_span">Fish platter for two</p>
-                <p class="end menu_price">370 kn / 49.10 EUR</p>
-                <p class="bracket">(fresh fish,squid,shrimp, scampi, mixed boiled vegetables)</p>
+                <p class="end menu_price">49 &#8364; &nbsp;<span> (369,19 kn)</span></p>
+                <p class="bracket">(fresh fish, squid, shrimp, scampi, mixed boiled vegetables)</p>
                 <p class="end menu_span">Roasted octopus with potatoes</p>
-                <p class="end menu_price">170 kn / 22.60 EUR</p>
+                <p class="end menu_price">28 &#8364; &nbsp;<span> (210,96 kn)</span></p>
             </div>
             <div class="menu" data-aos="zoom-in-up" data-aos-duration="1500">
                 <h2 class="center">MEAT DISHIES</h2>
                 <p class="end menu_span">Beefsteak on the grill 250 g</p>
-                <p class="end menu_price">230 kn / 30 EUR</p>
-                <p class="bracket">(ratatouille vegetables, potatoes)</p>
+                <p class="end menu_price">31 &#8364; &nbsp;<span> (233,57 kn)</span></p>
+                <p class="bracket">(ratatouille vegetables)</p>
                 <p class="end menu_span">Lamb filet 220g</p>
-                <p class="end menu_price">240 kn / 31.56 EUR</p>
-                <p class="bracket">(rosemary sauce, julienne vegetables, potatoes)</p>
+                <p class="end menu_price">33 &#8364; &nbsp;<span> (248,63 kn)</span></p>
+                <p class="bracket">(rosemary sauce, julienne vegetables)</p>
                 <p class="end menu_span">Filet mignon 200g</p>
-                <p class="end menu_price">200 kn / 26.50 EUR</p>
-                <p class="bracket">(red wine sauce, ratatouille vegetables, potatoes)</p>
+                <p class="end menu_price">27 &#8364; &nbsp;<span> (203,43 kn)</span></p>
+                <p class="bracket">(red wine sauce, ratatouille vegetables)</p>
                 <p class="end menu_span">Duck breasts</p>
-                <p class="end menu_price">170 kn / 22.60 EUR</p>
+                <p class="end menu_price">25 &#8364; &nbsp;<span> (188,36 kn)</span></p>
                 <p class="bracket">(squash purre, grilled vegetables)</p>
                 <p class="end menu_span">Pork medallions</p>
-                <p class="end menu_price">130 kn / 17.25 EUR</p>
+                <p class="end menu_price">17 &#8364; &nbsp;<span> (128,08 kn)</span></p>
                 <p class="bracket">(gnocchi in plum sauce)</p>
             </div>
-            <div class="menu dessert" data-aos="zoom-in" data-aos-duration="1500">
+            <div class="menu" data-aos="zoom-in" data-aos-duration="1500">
                 <h2 class="center">VEGETARIAN DISHES</h2>
                 <p class="end menu_span">Vegetable risotto</p>
-                <p class="end menu_price">75 kn / 9.95 EUR</p>
+                <p class="end menu_price">10 &#8364; &nbsp;<span> (75,34 kn)</span></p>
                 <p class="end menu_span">Grilled vegetables with mozzarella</p>
-                <p class="end menu_price">90 kn / 11.95 EUR</p>
-                <p class="end menu_span">Istrian pasta (fuži) with porcini mushrooms</p>
-                <p class="end menu_price">95 kn / 12.60 EUR</p>
+                <p class="end menu_price">12 &#8364; &nbsp;<span> (90,41 kn)</span></p>
+            </div>
+            <div class="menu" data-aos="zoom-in-up" data-aos-duration="1500">
+                <h2 class="center">CHILDREN'S MENU</h2>
+                <p class="menu_span">Grilled chicken breasts with french fries</p>
+                <p class="menu_price">12 &#8364; &nbsp;<span> (90,41 kn)</span></p>
+                <p class="menu_span">Spaghetti Bolognese</p>
+                <p class="menu_price">9,50 &#8364; &nbsp;<span> (71,58 kn)</span></p>
+                <p class="menu_span">Spaghetti Napolitana</p>
+                <p class="menu_price">8 &#8364; &nbsp;<span> (60,27 kn)</span></p>
             </div>
             <div class="menu" data-aos="zoom-in-up" data-aos-duration="1500">
                 <h2 class="center">SALADS</h2>
                 <p class="end menu_span">Seasonal salad</p>
-                <p class="end menu_price">35 kn / 4.65 EUR</p>
+                <p class="end menu_price">4,50 &#8364; &nbsp;<span> (33,90 kn)</span></p>
                 <p class="end menu_span">Greek salad</p>
-                <p class="end menu_price">50 kn / 6.65 EUR</p>
+                <p class="end menu_price">7 &#8364; &nbsp;<span> (52,74 kn)</span></p>
                 <p class="end menu_span">Chef's salad</p>
-                <p class="end menu_price">60 kn / 8 EUR</p>
+                <p class="end menu_price">9 &#8364; &nbsp;<span> (67,81 kn)</span></p>
                 <p class="bracket">(cucumbers, aurugula, chicory, spinach, cycle, riccota cheese, pine nuts)</p>
             </div>
             <div class="menu" data-aos="zoom-in-up" data-aos-duration="1500">
-                <h2 class="center">CHILDREN'S MENU</h2>
-                <p class="menu_span">Fried chicken breasts with french fries</p>
-                <p class="menu_price">85 kn / 11.30 EUR</p>
-                <p class="menu_span">Spaghetti Bolognese</p>
-                <p class="menu_price">65 kn / 8.60 EUR</p>
-                <p class="menu_span">Spaghetti Napolitana</p>
-                <p class="menu_price">55 kn / 7.30 EUR</p>
+                <h2 class="center">SIDE DISHES</h2>
+                <p class="menu_span">Swiss chard and boiled potatoes</p>
+                <p class="menu_price">6 &#8364; &nbsp;<span> (45,20 kn)</span></p>
+                <p class="menu_span">Mixed seasonal vegetables</p>
+                <p class="menu_price">6 &#8364; &nbsp;<span> (45,20 kn)</span></p>
                 <p class="menu_span">French fries</p>
-                <p class="menu_price">35 kn / 4.65 EUR</p>
+                <p class="menu_price">6 &#8364; &nbsp;<span> (45,20 kn)</span></p>
+                <p class="menu_span">Baker's potatoes</p>
+                <p class="menu_price">6 &#8364; &nbsp;<span> (45,20 kn)</span></p>
+                <p class="menu_span">Rice in butter</p>
+                <p class="menu_price">6 &#8364; &nbsp;<span> (45,20 kn)</span></p>
             </div>
             <div class="menu dessert" data-aos="zoom-in" data-aos-duration="1500">
                 <h2 class="center">DESERTS</h2>
                 <p class="menu_span">Dubrovnik style rosata (créme caramel)</p>
-                <p class="menu_price">50 kn / 6.65 EUR</p>
-                <p class="menu_span">Ice cream</p>
-                <p class="menu_price">36 kn / 4.80 EUR</p>
+                <p class="menu_price">7 &#8364; &nbsp;<span> (52,74 kn)</span></p>
+                <p class="menu_span">Ice cream (3 scoops)</p>
+                <p class="menu_price">5 &#8364; &nbsp;<span> (37,67 kn)</span></p>
                 <p class="menu_span">Pannacotta</p>
-                <p class="menu_price">50 kn / 6.65 EUR</p>
+                <p class="menu_price">7 &#8364; &nbsp;<span> (52,74 kn)</span></p>
                 <p class="menu_span">Homemade chocolate cake with carob</p>
-                <p class="menu_price">55 kn / 6.65 EUR</p>
+                <p class="menu_price">7 &#8364; &nbsp;<span> (52,74 kn)</span></p>
             </div>
         </div>
         <?php include('templates/footer.php'); ?>

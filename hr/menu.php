@@ -67,142 +67,152 @@
             <div class="menu" data-aos="zoom-in-up" data-aos-duration="1500">
                 <h2 class="center">HLADNA PREDJELA</h2>
                 <p class="end menu_span">Riblja pašteta</p>
-                <p class="end menu_price">36 kn / 4.80 EUR</p>
+                <p class="end menu_price">5 &#8364; &nbsp;<span> (37,67 kn)</span></p>
                 <p class="end menu_span">Miješana plitica</p>
-                <p class="end menu_price">95 kn /12.60 EUR</p>
-                <p class="bracket">(dalmatinski pršut, domaći sir, rikula, suho voće)</p>
+                <p class="end menu_price">13,50 &#8364; &nbsp;<span> (97,95 kn)</span></p>
+                <p class="bracket"> (dalmatinski pršut, domaći sir, rikula, suho voće)</p>
                 <p class="end menu_span">Hobotnica na salatu</p>
-                <p class="end menu_price">95 kn / 12.60 EUR</p>
+                <p class="end menu_price">14 &#8364; &nbsp;<span> (105,48 kn)</span></p>
                 <p class="end menu_span">Mozzarella burrata</p>
-                <p class="end menu_price">70 kn / 9.30 EUR</p>
+                <p class="end menu_price">10 &#8364; &nbsp;<span> (75,34 kn)</span></p>
                 <p class="end menu_span">Riblji carpaccio</p>
-                <p class="end menu_price">95 kn /12.60 EUR</p>
-                <p class="end menu_span">Carpaccio od hobotnice</p>
-                <p class="end menu_price">95 kn / 12.60 EUR</p>
+                <p class="end menu_price">14 &#8364; &nbsp;<span> (105,48 kn)</span></p>
+                <p class="menu_span">Carpaccio od hobotnice</p>
+                <p class="menu_price">14 &#8364; &nbsp;<span> (105,48 kn)</span></p>
                 <p class="end menu_span">Riblji pjat</p>
-                <p class="end menu_price">115 kn / 15.30 EUR</p>
-                <p class="bracket">(bruschette, avokado krema, marinirana i dimljena riba)</p>
+                <p class="end menu_price">15 &#8364; &nbsp;<span> (113 kn)</span></p>
+                <p class="bracket"> (bruschette, avokado krema, marinirana i dimljena riba)</p>
                 <p class="end menu_span">Tartar od svježe ribe</p>
-                <p class="end menu_price">90 kn / 11.95 EUR</p>
+                <p class="end menu_price">13,50 &#8364; &nbsp;<span> (97,95 kn)</span></p>
             </div>
             <div class="menu" data-aos="zoom-in-up" data-aos-duration="1500">
                 <h2 class="center">TOPLA PREDJELA</h2>
                 <p class="end menu_span">Mušule na buzaru</p>
-                <p class="end menu_price">90 kn / 11.95 EUR</p>
-                <p class="bracket">(češnjak, bijelo vino, sjeckane rajčice)</p>
+                <p class="end menu_price">14 &#8364; &nbsp;<span> (105,48 kn)</span></p>
+                <p class="bracket"> (češnjak, bijelo vino, sjeckane rajčice)</p>
                 <p class="end menu_span">Miješana buzara</p>
-                <p class="end menu_price">120 kn / 15.90 EUR</p>
-                <p class="menu_span">Bavette sa sabljarkom</p>
-                <p class="menu_price">95 kn / 12.60 EUR</p>
-                <p class="bracket">(chilli)</p>
+                <p class="end menu_price">17 &#8364; &nbsp;<span> (128,08 kn)</span></p>
+                <p class="menu_span">Bavette sa sabljarkom (chilli)</p>
+                <p class="menu_price">15 &#8364; &nbsp;<span> (113 kn)</span></p>
                 <p class="menu_span">Crni rižot od sipe</p>
-                <p class="menu_price">95 kn / 12.60 EUR</p>
+                <p class="menu_price">15 &#8364; &nbsp;<span> (113 kn)</span></p>
                 <p class="menu_span">Gambori u tempuri na rikuli</p>
-                <p class="menu_price">130 kn / 17.25 EUR</p>
+                <p class="menu_price">18,50 &#8364; &nbsp;<span> (139,39 kn)</span></p>
                 <p class="menu_span">Rižot s kozicama i šparogama</p>
-                <p class="menu_price">105 kn / 13.90 EUR</p>
-                <p class="menu_span">Škampi žar s rižom</p>
-                <p class="menu_price">170 kn / 22.56 EUR</p>
-                <p class="menu_span">Ravioli s ovčjim sirom i rezancima bifteka</p>
-                <p class="menu_price">95 kn /12.60 EUR</p>
+                <p class="menu_price">15,50 &#8364; &nbsp;<span> (116,78 kn)</span></p>
+                <p class="end menu_span">Škampi žar s rižom na maslacu</p>
+                <p class="end menu_price">23 &#8364; &nbsp;<span> (173,29 kn)</span></p>
+                <p class="end menu_span">Jakobove kapice na mornarski .</p>
+                <p class="end menu_price">17 &#8364; &nbsp;<span> (128,08 kn)</span></p>
             </div>
             <div class="menu dessert" data-aos="zoom-in" data-aos-duration="1500">
                 <h2 class="center">JUHE</h2>
                 <p class="menu_span">Riblja juha</p>
-                <p class="menu_price">48 kn / 6.40 EUR</p>
+                <p class="menu_price">7 &#8364; &nbsp;<span> (52,74 kn)</span></p>
                 <p class="menu_span">Juha od tikve s bučinim uljem</p>
-                <p class="menu_price">48 kn / 6.40 EUR</p>
-                <p class="menu_span">Dnevna juha</p>
-                <p class="menu_price">36 kn / 4.80 EUR</p>
+                <p class="menu_price">7 &#8364; &nbsp;<span> (52,74 kn)</span></p>
+                <p class="menu_span">Gusta juha od kozica i tikvica</p>
+                <p class="menu_price">9 &#8364; &nbsp;<span> (67,81 kn)</span></p>
             </div>
             <div class="menu" data-aos="zoom-in-up" data-aos-duration="1500">
                 <h2 class="center">RIBLJA JELA</h2>
+                <p class="end menu_span">Riba (porcija)</p>
+                <p class="end menu_price">18 &#8364; &nbsp;<span> (135,62 kn)</span></p>
                 <p class="end menu_span">Svježa morska riba 1kg</p>
-                <p class="end menu_price">420 kn /55.70 EUR</p>
+                <p class="end menu_price">56 &#8364; &nbsp;<span> (421,93 kn)</span></p>
                 <p class="menu_span">Jadranski jastog 1kg</p>
-                <p class="menu_price">700 kn / 92.90 EUR</p>
+                <p class="menu_price">90 &#8364; &nbsp;<span> (678,10 kn)</span></p>
                 <p class="end menu_span">Riblji ražnjići</p>
-                <p class="end menu_price">150 kn / 19.90 EUR</p>
-                <p class="bracket">(riba, lignji, kozice)</p>
+                <p class="end menu_price">20 &#8364; &nbsp;<span> (150,69 kn)</span></p>
+                <p class="bracket">(sezonsko povrće)</p>
                 <p class="end menu_span">Lignji sa žara</p>
-                <p class="end menu_price">120 kn / 15.90 EUR</p>
+                <p class="end menu_price">16 &#8364; &nbsp;<span> (120,55 kn)</span></p>
                 <p class="bracket">(blitva, krumpir)</p>
                 <p class="end menu_span">Lignji prženi</p>
-                <p class="end menu_price">120 kn / 15.90 EUR</p>
+                <p class="end menu_price">16 &#8364; &nbsp;<span> (120,55 kn)</span></p>
                 <p class="bracket">(prženi krumpir)</p>
                 <p class="end menu_span">Filet tune sa žara</p>
-                <p class="end menu_price">150 kn / 19.90 EUR</p>
-                <p class="bracket">(tikvice, mahune)</p>
+                <p class="end menu_price">20 &#8364; &nbsp;<span> (150,69 kn)</span></p>
+                <p class="bracket">(fetucine sa sipinim crnilom i šafranom)</p>
                 <p class="end menu_span">Filet sabljarke s mariniranom rajčicom</p>
-                <p class="end menu_price">160 kn / 21.20 EUR</p>
-                <p class="bracket">(miješano kuhano povrće)</p>
+                <p class="end menu_price">21 &#8364; &nbsp;<span> (158,22 kn)</span></p>
+                <p class="bracket">(i crnom lećom)</p>
                 <p class="end menu_span">Filet jadranskog brancina</p>
-                <p class="end menu_price">150 kn /19.90 EUR</p>
-                <p class="bracket">(krema od celera i komorača, šparoge na maslacu)</p>
+                <p class="end menu_price">22 &#8364; &nbsp;<span> (165,75 kn)</span></p>
+                <p class="bracket">(krema od celera i komorača, sa sezonskim povrćem)</p>
                 <p class="end menu_span">Riblja plata za 2 osobe</p>
-                <p class="end menu_price">370 kn / 49.10 EUR</p>
+                <p class="end menu_price">49 &#8364; &nbsp;<span> (369,19 kn)</span></p>
                 <p class="bracket">(svježa riba, lignji, kozice, škampi s kuhanim povrćem)</p>
                 <p class="end menu_span">Pečena hobotnica s krumpirom</p>
-                <p class="end menu_price">170 kn / 22.60 EUR</p>
+                <p class="end menu_price">28 &#8364; &nbsp;<span> (210,96 kn)</span></p>
             </div>
             <div class="menu" data-aos="zoom-in-up" data-aos-duration="1500">
                 <h2 class="center">MESNA JELA</h2>
-                <p class="end menu_span">Biftek na žaru 250g</p>
-                <p class="end menu_price">230 kn / 30 EUR</p>
-                <p class="bracket">(ratatouille povrće, krumpir)</p>
-                <p class="end menu_span">Janjeći filet 220g</p>
-                <p class="end menu_price">240 kn / 31.85 EUR</p>
-                <p class="bracket">(umak od ružmarina, julienne povrće, krumpir)</p>
+                <p class="end menu_span">Biftek na žaru 250 g</p>
+                <p class="end menu_price">31 &#8364; &nbsp;<span> (233,57 kn)</span></p>
+                <p class="bracket">(ratatouille povrće)</p>
+                <p class="end menu_span">Janjeći filet 220 g</p>
+                <p class="end menu_price">33 &#8364; &nbsp;<span> (248,63 kn)</span></p>
+                <p class="bracket">(umak od ružmarina, julienne povrće)</p>
                 <p class="end menu_span">Filet mignon 200g</p>
-                <p class="end menu_price">200 kn / 26.50 EUR</p>
-                <p class="bracket">(umak od crnog vina, ratatouille povrće, krumpir)</p>
+                <p class="end menu_price">27 &#8364; &nbsp;<span> (203,43 kn)</span></p>
+                <p class="bracket">(ratatouille povrće, umak od crnog vina)</p>
                 <p class="end menu_span">Pačja prsa</p>
-                <p class="end menu_price">170 kn / 22.60 EUR</p>
+                <p class="end menu_price">25 &#8364; &nbsp;<span> (188,36 kn)</span></p>
                 <p class="bracket">(krema od tikve, povrće sa žara)</p>
                 <p class="end menu_span">Svinjski medaljoni</p>
-                <p class="end menu_price">130 kn / 17.25 EUR</p>
-                <p class="bracket">(umak od šljiva, njoki)</p>
+                <p class="end menu_price">17 &#8364; &nbsp;<span> (128,08 kn)</span></p>
+                <p class="bracket">(umak od šljiva, njok)</p>
             </div>
-            <div class="menu dessert" data-aos="zoom-in" data-aos-duration="1500">
+            <div class="menu" data-aos="zoom-in" data-aos-duration="1500">
                 <h2 class="center">VEGETARIJANSKA JELA</h2>
                 <p class="end menu_span">Rižot od povrća</p>
-                <p class="end menu_price">75 kn / 9.95 EUR</p>
+                <p class="end menu_price">10 &#8364; &nbsp;<span> (75,34 kn)</span></p>
                 <p class="end menu_span">Povrće žar s mozzarelom</p>
-                <p class="end menu_price">90 kn / 11.95 EUR</p>
-                <p class="end menu_span">Istarski fuži s šampinjonima i sušenim vrganjima</p>
-                <p class="end menu_price">95 kn / 12.60 EUR</p>
+                <p class="end menu_price">12 &#8364; &nbsp;<span> (90,41 kn)</span></p>
+            </div>
+            <div class="menu" data-aos="zoom-in-up" data-aos-duration="1500">
+                <h2 class="center">DJEČJI MENI</h2>
+                <p class="menu_span">Piletina sa žara</p>
+                <p class="menu_price">12 &#8364; &nbsp;<span> (90,41 kn)</span></p>
+                <p class="menu_span">Špageti bolognese</p>
+                <p class="menu_price">9,50 &#8364; &nbsp;<span> (71,58 kn)</span></p>
+                <p class="menu_span">Špageti napolitana</p>
+                <p class="menu_price">8 &#8364; &nbsp;<span> (60,27 kn)</span></p>
             </div>
             <div class="menu" data-aos="zoom-in-up" data-aos-duration="1500">
                 <h2 class="center">SALATE</h2>
                 <p class="end menu_span">Sezonska salataa</p>
-                <p class="end menu_price">35 kn / 4.65 EUR</p>
+                <p class="end menu_price">4,50 &#8364; &nbsp;<span> (33,90 kn)</span></p>
                 <p class="end menu_span">Grčka salata</p>
-                <p class="end menu_price">50 kn /6.65 EUR</p>
+                <p class="end menu_price">7 &#8364; &nbsp;<span> (52,74 kn)</span></p>
                 <p class="end menu_span">Salata šefa kuhinje</p>
-                <p class="end menu_price">60 kn / 8 EUR</p>
+                <p class="end menu_price">9 &#8364; &nbsp;<span> (67,81 kn)</span></p>
                 <p class="bracket">(krastavci, rikula, radič, špinat, cikla, riccota sir, pinjoli, cherry rajčica)</p>
             </div>
             <div class="menu" data-aos="zoom-in-up" data-aos-duration="1500">
-                <h2 class="center">DJEČJI MENI</h2>
-                <p class="menu_span">Piletina sa žara s prženim krumpirićima</p>
-                <p class="menu_price">85 kn / 11.30 EUR</p>
-                <p class="menu_span">Špageti Bolognese</p>
-                <p class="menu_price">65 kn / 8.60 EUR</p>
-                <p class="menu_span">Špageti Napolitana</p>
-                <p class="menu_price">55 kn / 7.30 EUR</p>
+                <h2 class="center">PRILOZI</h2>
+                <p class="menu_span">Blitva i krumpir</p>
+                <p class="menu_price">6 &#8364; &nbsp;<span> (45,20 kn)</span></p>
+                <p class="menu_span">Miješano sezonsko povrće</p>
+                <p class="menu_price">6 &#8364; &nbsp;<span> (45,20 kn)</span></p>
                 <p class="menu_span">Prženi krumpirići</p>
-                <p class="menu_price">35 kn / 4.65 EUR</p>
+                <p class="menu_price">6 &#8364; &nbsp;<span> (45,20 kn)</span></p>
+                <p class="menu_span">Pekarski krumpir</p>
+                <p class="menu_price">6 &#8364; &nbsp;<span> (45,20 kn)</span></p>
+                <p class="menu_span">Riža na maslacu</p>
+                <p class="menu_price">6 &#8364; &nbsp;<span> (45,20 kn)</span></p>
             </div>
             <div class="menu dessert" data-aos="zoom-in" data-aos-duration="1500">
                 <h2 class="center">DESERTI</h2>
                 <p class="menu_span">Dubrovačka rozata</p>
-                <p class="menu_price">50 kn / 6.65 EUR</p>
-                <p class="menu_span">Sladoled</p>
-                <p class="menu_price">36 kn / 4.80 EUR</p>
+                <p class="menu_price">7 &#8364; &nbsp;<span> (52,74 kn)</span></p>
+                <p class="menu_span">Sladoled (3 kugle)</p>
+                <p class="menu_price">5 &#8364; &nbsp;<span> (37,67 kn)</span></p>
                 <p class="menu_span">Pannacotta</p>
-                <p class="menu_price">50 kn / 6.65 EUR</p>
+                <p class="menu_price">7 &#8364; &nbsp;<span> (52,74 kn)</span></p>
                 <p class="menu_span">Torta od rogača i čokolade</p>
-                <p class="menu_price">55 kn / 7.30 EUR</p>
+                <p class="menu_price">7 &#8364; &nbsp;<span> (52,74 kn)</span></p>
             </div>
         </div>
         <?php include('../templates/footer.php'); ?>
